@@ -10,6 +10,8 @@ The objective of this project transferring the style of an image A to another im
 
 4. The loss function is optimized for 10 iterations.
 
+   **NOTE**: Increasing the no. of iterations from 10 to 30 only increases the brightness of image while showing almost zero increase in style of output image.
+
 5. Finally, the resultant tensor is converted to an image.
 
 ## Result
