@@ -2,7 +2,7 @@
 The objective of this project transferring the style of an image A to another image B. The method used was **Neural Style Transfer**. This project was done for [Myelin Foundry AI Challenge](https://github.com/myelinfoundry-2019/challenge)
 
 ## Method
-1. The general approach of neural style transfer is to first normalize the content image and the style image. All he operations are done by converting the image to tensor.
+1. The general approach of neural style transfer is to first resize and normalize the content image and the style image to same ratio. All the operations are done by converting the image to tensor.
 
 2. Then loss functions are defined according to [this](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) research paper. **L_BFGS** loss function is used.
 
