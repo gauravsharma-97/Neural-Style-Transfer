@@ -1,5 +1,5 @@
 ## Introduction
-The objective of this project transferring the style of an image A to another image B. The method used was **Neural Style Transfer**. This project was done for [Myelin Foundry AI Challenge](https://github.com/myelinfoundry-2019/challenge)
+The objective of this project transferring the style of an image A to another image B. The method used was **Neural Style Transfer**. 
 
 ## Method
 1. The general approach of neural style transfer is to first resize and normalize the content image and the style image to same ratio. All the operations are done by converting the image to tensor.
